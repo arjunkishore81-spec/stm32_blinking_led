@@ -17,12 +17,21 @@ To interface a digital sensor with an STM32 microcontroller and automatically co
 | 7 | USB cable | 1 |
 
 ## Algorithm
+Start the program.
+Initialize the STM32 HAL library.
+Configure the system clock.
+Configure PA0 as a digital input.
+Configure PA5 as a digital output.
+Read the digital signal from PA0.
+Check whether the sensor output is HIGH or LOW.
+If the sensor output is HIGH, set PA5 HIGH and turn ON the LED.
+If the sensor output is LOW, set PA5 LOW and turn OFF the LED.
+Repeat the process continuously.
+Stop.
 
 
 
 ## Program
-
-
 
 ## Result
 
