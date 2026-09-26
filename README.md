@@ -166,6 +166,8 @@ if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK) { Error_
 @param line: assert_param error line source number
 @retval None */ void assert_failed(uint8_t file, uint32_t line) { / USER CODE BEGIN 6 / / User can add his own implementation to report the file name and line number, ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) / / USER CODE END 6 / } #endif / USE_FULL_ASSERT */## Program
 
+<img width="576" height="581" alt="image" src="https://github.com/user-attachments/assets/b0d35c2d-c340-4907-b38a-c4fcd082f4c6" />
+
 ## Result
 
 The digital sensor was successfully interfaced with the STM32 microcontroller. The LED connected to `PA5` turned ON when the sensor input at `PA0` was HIGH and turned OFF when the sensor input was LOW.
